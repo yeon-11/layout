@@ -10,6 +10,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     App: typeof import('./src/components/nav/App.vue')['default']
     Button: typeof import('./src/components/Button.vue')['default']
+    Expan: typeof import('./src/components/nav/Expan.vue')['default']
+    Expen: typeof import('./src/components/nav/Expen.vue')['default']
+    Expend: typeof import('./src/components/nav/Expend.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Latout2: typeof import('./src/components/layout/Latout2.vue')['default']
     Latout3: typeof import('./src/components/layout/Latout3.vue')['default']
@@ -21,5 +24,6 @@ declare module 'vue' {
     Nav1: typeof import('./src/components/nav/Nav1.vue')['default']
     Nav2: typeof import('./src/components/nav/Nav2.vue')['default']
     Nav3: typeof import('./src/components/nav/Nav3.vue')['default']
+    Nav4: typeof import('./src/components/nav/Nav4.vue')['default']
   }
 }
