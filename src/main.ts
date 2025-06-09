@@ -18,7 +18,7 @@ import { createApp } from 'vue'
 import 'unfonts.css'
 import { createVuetify } from 'vuetify'
 
-//react, vue는 항상 외부모듈 사용시 마운팅
+// react, vue는 항상 외부모듈 사용시 마운팅
 // const app = createApp(App)
 const vuetify = createVuetify()
 // app.use(vuetify).mount('#app')
