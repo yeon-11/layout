@@ -8,8 +8,8 @@
 ◾ v-if: 조건부 렌더링 <mark>v-if, v-else-if, v-else</mark>
 ◾ v-show: 결과가 참이면 보이고 거짓이면 안보임
 ◾ v-for: 정해진 크기만큼 반복
-◾ Events:
-◾ v-on:
+◾ Events
+◾ v-on
 </pre>
       </v-col>
 
